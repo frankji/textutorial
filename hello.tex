@@ -1,4 +1,14 @@
 \documentclass{article} % letter, article, report, book, memoir, macthesis
+\usepackage{lipsum}
+\usepackage[margin=1in, left=1.5in, includefoot]{geometry}
+%header and footer stuff
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 \begin{document}
 %\title{random, I don't know what title to give}
 %\author{frank}
@@ -22,5 +32,11 @@
 	\# 2132321\\}
 	\end{flushright}
 \end{titlepage}
-text
+\section{Introduction}\label{sec:intro}
+
+
+That is the first line of the report. 
+
+ddfsfsadfdjfnsafanfawnfwefnweifniewnfeowinofnonfowe\\
+\lipsum[1]
 \end{document}
